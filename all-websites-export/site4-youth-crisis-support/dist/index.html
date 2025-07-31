@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youth Crisis Support Network | Emergency Mental Health Resources</title>
+    <meta name="description" content="Comprehensive crisis support resources for youth and families, including emergency services, suicide prevention, and immediate intervention strategies.">
+    <meta name="keywords" content="youth crisis support, teen suicide prevention, mental health emergency, crisis intervention, family crisis resources">
+    
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-XXXXXXXXXX');
+    </script>
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            color: #2c3e50;
+            background: linear-gradient(135deg, #ff6b6b 0%, #ee5a24 25%, #ff9ff3 50%, #54a0ff 75%, #5f27cd 100%);
+            min-height: 100vh;
+            background-attachment: fixed;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        
+        .hero-section {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(20px);
+            border-radius: 30px;
+            padding: 4rem;
+            text-align: center;
+            box-shadow: 0 25px 80px rgba(0, 0, 0, 0.15);
+            margin-bottom: 3rem;
+            border: 1px solid rgba(255, 255, 255, 0.3);
+        }
+        
+        .hero-section h1 {
+            font-size: 3.5rem;
+            font-weight: 900;
+            background: linear-gradient(135deg, #ff6b6b, #ee5a24, #5f27cd);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 1.5rem;
+            letter-spacing: -0.02em;
+        }
+        
+        .hero-section p {
+            font-size: 1.3rem;
+            color: #5a6c7d;
+            max-width: 700px;
+            margin: 0 auto 2rem auto;
+        }
+        
+        .emergency-banner {
+            background: linear-gradient(135deg, #e74c3c, #c0392b);
+            color: white;
+            padding: 2rem;
+            border-radius: 20px;
+            margin-bottom: 3rem;
+            text-align: center;
+            box-shadow: 0 15px 40px rgba(231, 76, 60, 0.3);
+        }
+        
+        .emergency-banner h2 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+        
+        .emergency-banner p {
+            font-size: 1.2rem;
+            margin-bottom: 1rem;
+        }
+        
+        .emergency-contacts {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1rem;
+            margin-top: 1.5rem;
+        }
+        
+        .emergency-contact {
+            background: rgba(255, 255, 255, 0.2);
+            padding: 1rem;
+            border-radius: 10px;
+            text-align: center;
+        }
+        
+        .emergency-contact h3 {
+            font-size: 1.1rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        .emergency-contact p {
+            font-size: 1.3rem;
+            font-weight: bold;
+        }
+        
+        .resources-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 2rem;
+            margin-bottom: 3rem;
+        }
+        
+        .resource-card {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(20px);
+            border-radius: 25px;
+            padding: 2.5rem;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            transition: all 0.3s ease;
+        }
+        
+        .resource-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 30px 80px rgba(0, 0, 0, 0.15);
+        }
+        
+        .resource-card h3 {
+            font-size: 1.8rem;
+            color: #2d3436;
+            margin-bottom: 1rem;
+            background: linear-gradient(135deg, #ff6b6b, #5f27cd);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .resource-card p {
+            color: #636e72;
+            margin-bottom: 1.5rem;
+            font-size: 1.05rem;
+        }
+        
+        .resource-card a {
+            display: inline-block;
+            background: linear-gradient(135deg, #ff6b6b, #5f27cd);
+            color: white;
+            padding: 0.8rem 1.5rem;
+            text-decoration: none;
+            border-radius: 25px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+        
+        .resource-card a:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 25px rgba(255, 107, 107, 0.4);
+        }
+        
+        .regional-resources {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(20px);
+            border-radius: 25px;
+            padding: 3rem;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.1);
+            margin-bottom: 3rem;
+            border: 1px solid rgba(255, 255, 255, 0.3);
+        }
+        
+        .regional-resources h2 {
+            font-size: 2.5rem;
+            color: #2d3436;
+            margin-bottom: 2rem;
+            text-align: center;
+            background: linear-gradient(135deg, #ff6b6b, #5f27cd);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .regional-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1.5rem;
+        }
+        
+        .regional-card {
+            background: linear-gradient(135deg, #ff6b6b, #ee5a24);
+            color: white;
+            padding: 2rem;
+            border-radius: 20px;
+            text-align: center;
+            transition: all 0.3s ease;
+        }
+        
+        .regional-card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 15px 40px rgba(255, 107, 107, 0.3);
+        }
+        
+        .regional-card h3 {
+            font-size: 1.4rem;
+            margin-bottom: 1rem;
+            color: white;
+        }
+        
+        .regional-card p {
+            margin-bottom: 1.5rem;
+            opacity: 0.9;
+        }
+        
+        .regional-card a {
+            display: inline-block;
+            background: rgba(255, 255, 255, 0.2);
+            color: white;
+            padding: 0.7rem 1.3rem;
+            text-decoration: none;
+            border-radius: 20px;
+            font-weight: 600;
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            transition: all 0.3s ease;
+        }
+        
+        .regional-card a:hover {
+            background: rgba(255, 255, 255, 0.3);
+        }
+        
+        @media (max-width: 768px) {
+            .container {
+                padding: 1rem;
+            }
+            
+            .hero-section {
+                padding: 2.5rem;
+            }
+            
+            .hero-section h1 {
+                font-size: 2.5rem;
+            }
+            
+            .resources-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .regional-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <section class="hero-section">
+            <h1>Youth Crisis Support Network</h1>
+            <p>Immediate help, comprehensive resources, and ongoing support for youth and families facing mental health crises. When every moment matters, we're here to guide you to the right resources.</p>
+        </section>
+
+        <div class="emergency-banner">
+            <h2>🚨 Crisis? Get Help Now</h2>
+            <p>If you or someone you know is in immediate danger or having thoughts of suicide, don't wait. Help is available 24/7.</p>
+            
+            <div class="emergency-contacts">
+                <div class="emergency-contact">
+                    <h3>Emergency Services</h3>
+                    <p>911</p>
+                </div>
+                <div class="emergency-contact">
+                    <h3>Suicide Prevention Lifeline</h3>
+                    <p>988</p>
+                </div>
+                <div class="emergency-contact">
+                    <h3>Crisis Text Line</h3>
+                    <p>Text HOME to 741741</p>
+                </div>
+                <div class="emergency-contact">
+                    <h3>Trevor Lifeline (LGBTQ+)</h3>
+                    <p>1-866-488-7386</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="resources-grid">
+            <div class="resource-card">
+                <h3>Crisis Prevention & Planning</h3>
+                <p>Learn how to recognize warning signs, develop safety plans, and create supportive environments that help prevent mental health crises before they escalate.</p>
+                <a href="crisis-prevention-strategies.html">Learn Prevention Strategies →</a>
+            </div>
+
+            <div class="resource-card">
+                <h3>Suicide Prevention Resources</h3>
+                <p>Comprehensive information about suicide prevention, risk factors, protective factors, and how families can create safety nets for at-risk youth.</p>
+                <a href="suicide-prevention-guide.html">Access Prevention Guide →</a>
+            </div>
+
+            <div class="resource-card">
+                <h3>Emergency Response Planning</h3>
+                <p>Step-by-step guidance for families on how to respond during a mental health emergency, including when to call 911 and what to expect.</p>
+                <a href="emergency-response-guide.html">View Response Guide →</a>
+            </div>
+
+            <div class="resource-card">
+                <h3>Family Crisis Support</h3>
+                <p>Resources for families navigating the aftermath of a crisis, including trauma-informed care, family therapy, and rebuilding trust and communication.</p>
+                <a href="family-crisis-recovery.html">Find Family Support →</a>
+            </div>
+
+            <div class="resource-card">
+                <h3>School Crisis Intervention</h3>
+                <p>Information about school-based crisis response, threat assessment protocols, and how schools and families can work together during emergencies.</p>
+                <a href="school-crisis-protocols.html">Explore School Resources →</a>
+            </div>
+
+            <div class="resource-card">
+                <h3>Mobile Crisis Teams</h3>
+                <p>Understanding mobile crisis response services, when they're appropriate, and how they can provide on-site support during mental health emergencies.</p>
+                <a href="mobile-crisis-services.html">Learn About Mobile Teams →</a>
+            </div>
+        </div>
+
+        <section class="regional-resources">
+            <h2>Regional Crisis Resources</h2>
+            <p style="text-align: center; margin-bottom: 2rem; font-size: 1.1rem; color: #5a6c7d;">Access location-specific crisis intervention resources and emergency services. Each region provides comprehensive information about local crisis services, emergency contacts, and specialized support programs. For additional resources, visit the <a href="https://www.samhsa.gov/find-help/national-helpline" target="_blank" rel="noopener" style="color: #ff6b6b; text-decoration: none; font-weight: 600;">SAMHSA National Helpline</a> or the <a href="https://www.cdc.gov/suicide/resources/index.html" target="_blank" rel="noopener" style="color: #ff6b6b; text-decoration: none; font-weight: 600;">CDC Suicide Prevention Resources</a>.</p>
+            <div class="regional-grid">
+                <div class="regional-card">
+                    <h3>🇬🇧 United Kingdom</h3>
+                    <p>NHS crisis services, CAMHS emergency support, and UK-specific mental health resources for youth and families.</p>
+                    <a href="uk-crisis-services.html">UK Resources →</a>
+                </div>
+
+                <div class="regional-card">
+                    <h3>🌴 California</h3>
+                    <p>California crisis intervention programs, county mental health services, and state-specific emergency resources.</p>
+                    <a href="california-crisis-intervention.html">California Resources →</a>
+                </div>
+
+                <div class="regional-card">
+                    <h3>🏔️ Utah</h3>
+                    <p>Utah's crisis response system, local mental health authorities, and community-based emergency support services.</p>
+                    <a href="utah-crisis-resources.html">Utah Resources →</a>
+                </div>
+
+                <div class="regional-card">
+                    <h3>🎵 Tennessee</h3>
+                    <p>Tennessee crisis services, regional mental health centers, and state emergency mental health programs.</p>
+                    <a href="tennessee-crisis-support.html">Tennessee Resources →</a>
+                </div>
+
+                <div class="regional-card">
+                    <h3>🗽 New York City</h3>
+                    <p>NYC crisis intervention services, mobile response teams, and city-specific emergency mental health resources.</p>
+                    <a href="nyc-crisis-intervention.html">NYC Resources →</a>
+                </div>
+
+                <div class="regional-card">
+                    <h3>🌉 San Francisco</h3>
+                    <p>San Francisco crisis support services, community mental health programs, and Bay Area emergency resources.</p>
+                    <a href="san-francisco-crisis-services.html">SF Resources →</a>
+                </div>
+
+                <div class="regional-card">
+                    <h3>🌴 Florida</h3>
+                    <p>Florida crisis intervention programs, Baker Act procedures, and statewide emergency mental health services.</p>
+                    <a href="florida-crisis-intervention.html">Florida Resources →</a>
+                </div>
+
+                <div class="regional-card">
+                    <h3>⭐ Texas</h3>
+                    <p>Texas crisis response services, local mental health authorities, and state emergency intervention programs.</p>
+                    <a href="texas-crisis-intervention.html">Texas Resources →</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="content-section" style="background: rgba(255, 255, 255, 0.95); backdrop-filter: blur(20px); border-radius: 25px; padding: 3rem; box-shadow: 0 20px 60px rgba(0, 0, 0, 0.1); margin-bottom: 3rem; border: 1px solid rgba(255, 255, 255, 0.3); text-align: center;">
+            <h2 style="font-size: 2rem; color: #2d3436; margin-bottom: 2rem; background: linear-gradient(135deg, #ff6b6b, #5f27cd); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">Additional Resources</h2>
+            <p style="margin-bottom: 2rem; font-size: 1.1rem; color: #2c3e50;">For comprehensive crisis intervention information and evidence-based resources, visit:</p>
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.5rem; margin-bottom: 2rem;">
+                <div style="background: linear-gradient(135deg, #54a0ff, #5f27cd); color: white; padding: 1.5rem; border-radius: 15px;">
+                    <h3 style="color: white; margin-bottom: 1rem;">Government Resources</h3>
+                    <p style="margin-bottom: 1rem; opacity: 0.9;">Official crisis intervention guidelines and resources</p>
+                    <a href="https://www.nimh.nih.gov/health/topics/suicide-prevention" target="_blank" rel="noopener" style="color: white; text-decoration: none; font-weight: 600; border-bottom: 1px solid rgba(255,255,255,0.5);">NIMH Suicide Prevention →</a>
+                </div>
+                <div style="background: linear-gradient(135deg, #ff6b6b, #ee5a24); color: white; padding: 1.5rem; border-radius: 15px;">
+                    <h3 style="color: white; margin-bottom: 1rem;">Educational Resources</h3>
+                    <p style="margin-bottom: 1rem; opacity: 0.9;">Research-based crisis intervention approaches</p>
+                    <a href="https://www.sprc.org/" target="_blank" rel="noopener" style="color: white; text-decoration: none; font-weight: 600; border-bottom: 1px solid rgba(255,255,255,0.5);">Suicide Prevention Resource Center →</a>
+                </div>
+            </div>
+            <div style="margin-top: 2rem;">
+                <a href="about.html" style="display: inline-block; background: linear-gradient(135deg, #ff6b6b, #5f27cd); color: white; padding: 1rem 2rem; text-decoration: none; border-radius: 25px; font-weight: 600; margin: 0 1rem; transition: all 0.3s ease;">About Us</a>
+                <a href="contact.html" style="display: inline-block; background: linear-gradient(135deg, #54a0ff, #5f27cd); color: white; padding: 1rem 2rem; text-decoration: none; border-radius: 25px; font-weight: 600; margin: 0 1rem; transition: all 0.3s ease;">Contact</a>
+            </div>
+        </section>
+    </div>
+</body>
+</html>

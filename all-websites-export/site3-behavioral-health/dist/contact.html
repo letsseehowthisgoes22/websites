@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Adolescent Behavioral Health Support Center</title>
+    <meta name="description" content="Get in touch with the Adolescent Behavioral Health Support Center for questions, feedback, or suggestions about our educational resources.">
+    <meta name="keywords" content="contact, adolescent behavioral health, mental health resources, feedback, questions, support">
+    
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-XXXXXXXXXX');
+    </script>
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.7;
+            color: #2c3e50;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #f093fb 100%);
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        
+        .page-header {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(20px);
+            border-radius: 25px;
+            padding: 3rem;
+            text-align: center;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.1);
+            margin-bottom: 2rem;
+            border: 1px solid rgba(255, 255, 255, 0.3);
+        }
+        
+        .page-header h1 {
+            font-size: 2.8rem;
+            font-weight: 800;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 1rem;
+            letter-spacing: -0.02em;
+        }
+        
+        .page-header p {
+            font-size: 1.2rem;
+            color: #5a6c7d;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        
+        .content-section {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(20px);
+            border-radius: 25px;
+            padding: 3rem;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.1);
+            margin-bottom: 2rem;
+            border: 1px solid rgba(255, 255, 255, 0.3);
+        }
+        
+        .content-section h2 {
+            font-size: 2rem;
+            color: #2d3436;
+            margin: 0 0 1.5rem 0;
+            border-bottom: 3px solid #667eea;
+            padding-bottom: 0.5rem;
+        }
+        
+        .content-section h3 {
+            font-size: 1.5rem;
+            color: #2d3436;
+            margin: 2rem 0 1rem 0;
+        }
+        
+        .content-section p {
+            margin-bottom: 1.5rem;
+            font-size: 1.1rem;
+            color: #2c3e50;
+        }
+        
+        .content-section ul {
+            margin: 1rem 0 1.5rem 2rem;
+        }
+        
+        .content-section li {
+            margin-bottom: 0.8rem;
+            font-size: 1.05rem;
+        }
+        
+        .emergency-box {
+            background: linear-gradient(135deg, #e74c3c, #c0392b);
+            color: white;
+            padding: 2rem;
+            border-radius: 15px;
+            margin: 2rem 0;
+            box-shadow: 0 10px 30px rgba(231, 76, 60, 0.3);
+        }
+        
+        .emergency-box h3 {
+            color: white;
+            margin-bottom: 1rem;
+        }
+        
+        .info-box {
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
+            padding: 2rem;
+            border-radius: 15px;
+            margin: 2rem 0;
+            box-shadow: 0 10px 30px rgba(102, 126, 234, 0.3);
+        }
+        
+        .info-box h3 {
+            color: white;
+            margin-bottom: 1rem;
+        }
+        
+        .contact-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin: 2rem 0;
+        }
+        
+        .contact-card {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 2rem;
+            border-radius: 15px;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+        
+        .contact-card h4 {
+            font-size: 1.3rem;
+            margin-bottom: 1rem;
+            color: #2d3436;
+        }
+        
+        .back-link {
+            display: inline-block;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
+            padding: 1rem 2rem;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: 600;
+            margin-top: 2rem;
+            transition: all 0.3s ease;
+        }
+        
+        .back-link:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 30px rgba(102, 126, 234, 0.4);
+        }
+        
+        @media (max-width: 768px) {
+            .container {
+                padding: 1rem;
+            }
+            
+            .page-header h1 {
+                font-size: 2.2rem;
+            }
+            
+            .content-section {
+                padding: 2rem;
+            }
+            
+            .contact-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="page-header">
+            <h1>Contact Us</h1>
+            <p>We welcome your feedback, questions, and suggestions about our educational resources</p>
+        </header>
+
+        <div class="emergency-box">
+            <h3>🚨 Mental Health Emergency</h3>
+            <p><strong>If you or your adolescent are experiencing a mental health emergency, please contact emergency services immediately:</strong></p>
+            <ul>
+                <li><strong>Call 911</strong> for immediate emergency assistance</li>
+                <li><strong>National Suicide Prevention Lifeline:</strong> 988</li>
+                <li><strong>Crisis Text Line:</strong> Text HOME to 741741</li>
+                <li>Go to your nearest emergency room</li>
+            </ul>
+            <p>Do not wait or rely on information from this website during emergency situations.</p>
+        </div>
+
+        <section class="content-section">
+            <h2>Get in Touch</h2>
+            <p>The Adolescent Behavioral Health Support Center is committed to providing valuable educational resources for families, caregivers, and professionals. We welcome your input to help us improve and expand our content.</p>
+
+            <div class="contact-grid">
+                <div class="contact-card">
+                    <h4>General Inquiries</h4>
+                    <p>Questions about our resources, suggestions for new content, or general feedback about the website.</p>
+                    <p><strong>Please note:</strong> We are an educational resource and cannot provide individual medical advice or treatment recommendations.</p>
+                </div>
+
+                <div class="contact-card">
+                    <h4>Content Updates</h4>
+                    <p>If you notice outdated information, broken links, or have suggestions for improving our educational content.</p>
+                    <p>We regularly review and update our resources to ensure accuracy and relevance.</p>
+                </div>
+
+                <div class="contact-card">
+                    <h4>Accessibility</h4>
+                    <p>If you encounter any barriers to accessing our content or have suggestions for improving accessibility.</p>
+                    <p>We are committed to making our resources available to all families and professionals.</p>
+                </div>
+
+                <div class="contact-card">
+                    <h4>Professional Resources</h4>
+                    <p>Feedback from mental health professionals, educators, or other service providers about our educational materials.</p>
+                    <p>Your expertise helps us ensure our content serves the needs of the professional community.</p>
+                </div>
+            </div>
+        </section>
+
+        <div class="info-box">
+            <h3>Important Information</h3>
+            <p><strong>Educational Resource Only:</strong> This website provides educational information only and is not a substitute for professional medical advice, diagnosis, or treatment. We cannot provide individual medical recommendations or treatment advice.</p>
+            
+            <p><strong>Response Time:</strong> While we strive to respond to inquiries promptly, please allow several business days for a response. For urgent mental health concerns, please contact a qualified healthcare provider or emergency services.</p>
+            
+            <p><strong>Privacy:</strong> We respect your privacy and do not share contact information with third parties. Any feedback you provide may be used to improve our educational resources.</p>
+        </div>
+
+        <section class="content-section">
+            <h2>Frequently Asked Questions</h2>
+
+            <h3>Can you recommend specific treatment providers or programs?</h3>
+            <p>We are an educational resource and cannot make specific treatment recommendations. Our regional guides provide information about types of services available in different areas, but families should consult with qualified healthcare providers for personalized recommendations.</p>
+
+            <h3>Can you provide medical advice about my adolescent's condition?</h3>
+            <p>No, we cannot provide medical advice, diagnosis, or treatment recommendations. Please consult with qualified mental health professionals for guidance specific to your adolescent's needs.</p>
+
+            <h3>How often is your content updated?</h3>
+            <p>We regularly review and update our content to ensure accuracy and relevance. If you notice outdated information, please let us know so we can prioritize updates.</p>
+
+            <h3>Can I share your resources with others?</h3>
+            <p>Yes, our educational resources are designed to be shared with families, professionals, and community members who may find them helpful. We encourage sharing information that may benefit others navigating adolescent behavioral health challenges.</p>
+
+            <h3>Do you provide services in languages other than English?</h3>
+            <p>Currently, our content is available in English. We recognize the importance of multilingual resources and welcome feedback about language accessibility needs in the communities we serve.</p>
+        </section>
+
+        <section class="content-section">
+            <h2>Professional Resources and Partnerships</h2>
+            <p>We welcome input from mental health professionals, educators, healthcare providers, and other professionals working with adolescents and families. Your expertise helps us ensure our educational content is accurate, relevant, and useful.</p>
+
+            <h3>For Mental Health Professionals</h3>
+            <p>If you are a mental health professional and have feedback about our content, suggestions for additional resources, or notice areas where information could be improved, we value your input.</p>
+
+            <h3>For Educators and School Personnel</h3>
+            <p>School-based professionals play a crucial role in supporting adolescent mental health. We welcome feedback about how our resources can better serve the educational community.</p>
+
+            <h3>For Healthcare Providers</h3>
+            <p>Primary care providers, pediatricians, and other healthcare professionals often serve as the first point of contact for families seeking mental health resources. Your perspective helps us create content that supports your work with families.</p>
+        </section>
+
+        <section class="content-section">
+            <h2>Community Feedback</h2>
+            <p>Our resources are strengthened by input from the communities we serve. We welcome feedback from:</p>
+
+            <ul>
+                <li>Families who have used our resources</li>
+                <li>Community organizations serving adolescents and families</li>
+                <li>Advocacy groups focused on mental health</li>
+                <li>Cultural and community leaders</li>
+                <li>Anyone working to improve adolescent behavioral health services</li>
+            </ul>
+
+            <p>Your feedback helps us understand how our resources are being used and how we can improve them to better serve families and professionals.</p>
+        </section>
+
+        <a href="index.html" class="back-link">← Back to Home</a>
+    </div>
+</body>
+</html>

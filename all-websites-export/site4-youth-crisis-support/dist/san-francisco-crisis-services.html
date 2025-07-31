@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>San Francisco Crisis Services for Youth | Bay Area Mental Health Emergency Support</title>
+    <meta name="description" content="Comprehensive guide to San Francisco's youth crisis intervention services, including mobile crisis teams, emergency mental health resources, and specialized Bay Area support programs.">
+    <meta name="keywords" content="San Francisco crisis services, Bay Area youth mental health, emergency mental health services SF, mobile crisis teams San Francisco, youth crisis support">
+    
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-XXXXXXXXXX');
+    </script>
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.7;
+            color: #2c3e50;
+            background: linear-gradient(135deg, #ff6b6b 0%, #ee5a24 25%, #ff9ff3 50%, #54a0ff 75%, #5f27cd 100%);
+            min-height: 100vh;
+            background-attachment: fixed;
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        
+        .article-header {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(20px);
+            border-radius: 25px;
+            padding: 3rem;
+            text-align: center;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.1);
+            margin-bottom: 2rem;
+            border: 1px solid rgba(255, 255, 255, 0.3);
+        }
+        
+        .article-header h1 {
+            font-size: 2.8rem;
+            font-weight: 800;
+            background: linear-gradient(135deg, #ff6b6b, #ee5a24, #5f27cd);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 1rem;
+            letter-spacing: -0.02em;
+        }
+        
+        .article-header p {
+            font-size: 1.2rem;
+            color: #5a6c7d;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        
+        .emergency-banner {
+            background: linear-gradient(135deg, #e74c3c, #c0392b);
+            color: white;
+            padding: 2rem;
+            border-radius: 20px;
+            margin-bottom: 2rem;
+            text-align: center;
+            box-shadow: 0 15px 40px rgba(231, 76, 60, 0.3);
+        }
+        
+        .emergency-banner h2 {
+            font-size: 1.8rem;
+            margin-bottom: 1rem;
+        }
+        
+        .emergency-banner p {
+            font-size: 1.1rem;
+            margin-bottom: 1rem;
+        }
+        
+        .emergency-contacts {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            margin-top: 1.5rem;
+        }
+        
+        .emergency-contact {
+            background: rgba(255, 255, 255, 0.2);
+            padding: 1rem;
+            border-radius: 10px;
+            text-align: center;
+        }
+        
+        .emergency-contact h3 {
+            font-size: 1rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        .emergency-contact p {
+            font-size: 1.2rem;
+            font-weight: bold;
+        }
+        
+        .article-content {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(20px);
+            border-radius: 25px;
+            padding: 3rem;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.1);
+            margin-bottom: 2rem;
+            border: 1px solid rgba(255, 255, 255, 0.3);
+        }
+        
+        .article-content h2 {
+            font-size: 2rem;
+            color: #2d3436;
+            margin: 2rem 0 1rem 0;
+            border-bottom: 3px solid #ff6b6b;
+            padding-bottom: 0.5rem;
+        }
+        
+        .article-content h3 {
+            font-size: 1.5rem;
+            color: #2d3436;
+            margin: 1.5rem 0 1rem 0;
+        }
+        
+        .article-content p {
+            margin-bottom: 1.5rem;
+            font-size: 1.1rem;
+            color: #2c3e50;
+        }
+        
+        .article-content ul, .article-content ol {
+            margin: 1rem 0 1.5rem 2rem;
+        }
+        
+        .article-content li {
+            margin-bottom: 0.8rem;
+            font-size: 1.05rem;
+        }
+        
+        .highlight-box {
+            background: linear-gradient(135deg, #ff6b6b, #ee5a24);
+            color: white;
+            padding: 2rem;
+            border-radius: 15px;
+            margin: 2rem 0;
+            box-shadow: 0 10px 30px rgba(255, 107, 107, 0.3);
+        }
+        
+        .highlight-box h3 {
+            color: white;
+            margin-bottom: 1rem;
+        }
+        
+        .info-box {
+            background: linear-gradient(135deg, #54a0ff, #5f27cd);
+            color: white;
+            padding: 2rem;
+            border-radius: 15px;
+            margin: 2rem 0;
+            box-shadow: 0 10px 30px rgba(84, 160, 255, 0.3);
+        }
+        
+        .info-box h3 {
+            color: white;
+            margin-bottom: 1rem;
+        }
+        
+        .external-link {
+            color: #ff6b6b;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        
+        .external-link:hover {
+            text-decoration: underline;
+        }
+        
+        .back-link {
+            display: inline-block;
+            background: linear-gradient(135deg, #ff6b6b, #5f27cd);
+            color: white;
+            padding: 1rem 2rem;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: 600;
+            margin-top: 2rem;
+            transition: all 0.3s ease;
+        }
+        
+        .back-link:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 30px rgba(255, 107, 107, 0.4);
+        }
+        
+        @media (max-width: 768px) {
+            .container {
+                padding: 1rem;
+            }
+            
+            .article-header h1 {
+                font-size: 2.2rem;
+            }
+            
+            .article-content {
+                padding: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="article-header">
+            <h1>San Francisco Crisis Services for Youth</h1>
+            <p>Comprehensive guide to Bay Area emergency mental health services and crisis intervention resources</p>
+        </header>
+
+        <div class="emergency-banner">
+            <h2>🚨 San Francisco Emergency Mental Health Contacts</h2>
+            <p>If you or someone you know is in immediate danger or having thoughts of suicide, get help right now:</p>
+            
+            <div class="emergency-contacts">
+                <div class="emergency-contact">
+                    <h3>Emergency Services</h3>
+                    <p>911</p>
+                </div>
+                <div class="emergency-contact">
+                    <h3>Suicide Prevention Lifeline</h3>
+                    <p>988</p>
+                </div>
+                <div class="emergency-contact">
+                    <h3>SF Crisis Line</h3>
+                    <p>(415) 781-0500</p>
+                </div>
+                <div class="emergency-contact">
+                    <h3>Crisis Text Line</h3>
+                    <p>Text HOME to 741741</p>
+                </div>
+            </div>
+        </div>
+
+        <article class="article-content">
+            <p>San Francisco has developed one of the most progressive and comprehensive youth crisis intervention systems in the United States, reflecting the city's commitment to innovation, social justice, and community-based mental health care. As part of the broader Bay Area, San Francisco benefits from a rich ecosystem of mental health resources, research institutions, and advocacy organizations that have shaped cutting-edge approaches to youth crisis intervention.</p>
+
+            <p>The city's unique character, combining urban density with progressive values and significant resources, has enabled the development of crisis services that emphasize cultural competency, harm reduction, and innovative service delivery models. San Francisco's approach to youth mental health crisis intervention serves as a model for other urban areas seeking to develop comprehensive, community-based crisis response systems.</p>
+
+            <h2>San Francisco's Mental Health System Structure</h2>
+
+            <p>San Francisco's crisis intervention services are coordinated through the San Francisco Department of Public Health (SFDPH), which operates one of the most integrated public health systems in the country:</p>
+
+            <h3>San Francisco Department of Public Health</h3>
+            <p>SFDPH provides comprehensive oversight and coordination for crisis services:</p>
+            <ul>
+                <li><strong>Behavioral Health Services:</strong> Comprehensive mental health and substance use services</li>
+                <li><strong>Crisis intervention coordination:</strong> Citywide coordination of crisis response</li>
+                <li><strong>Policy development:</strong> Progressive mental health policies and practices</li>
+                <li><strong>Quality improvement:</strong> Continuous improvement of crisis services</li>
+                <li><strong>Community partnerships:</strong> Collaboration with community-based organizations</li>
+            </ul>
+
+            <h3>San Francisco General Hospital</h3>
+            <p>SF General serves as the city's primary emergency psychiatric facility:</p>
+            <ul>
+                <li><strong>Psychiatric Emergency Services (PES):</strong> 24/7 emergency psychiatric care</li>
+                <li><strong>Crisis Stabilization Unit:</strong> Short-term residential crisis treatment</li>
+                <li><strong>Mobile Crisis Team:</strong> Community-based crisis response</li>
+                <li><strong>Youth and Family Services:</strong> Specialized programs for children and adolescents</li>
+            </ul>
+
+            <div class="highlight-box">
+                <h3>Professional Crisis Transport in San Francisco</h3>
+                <p>San Francisco's unique geography, with its hills, traffic patterns, and diverse neighborhoods, sometimes requires specialized transport services during mental health crises. Professional services like Interactive Youth Transport understand the Bay Area's specific challenges, including navigating the city's complex street layout, coordinating with UCSF and other major medical centers, and working within San Francisco's progressive mental health framework. These services are particularly valuable when youth need to access specialized treatment facilities or when families require support navigating between different levels of care in the Bay Area's extensive mental health system.</p>
+            </div>
+
+            <h2>Mobile Crisis Services</h2>
+
+            <p>San Francisco has developed innovative mobile crisis services that serve as a model for other cities:</p>
+
+            <h3>Mobile Crisis Team (MCT)</h3>
+            <ul>
+                <li><strong>24/7 availability:</strong> Crisis teams available around the clock</li>
+                <li><strong>Rapid response:</strong> Teams typically respond within 1 hour</li>
+                <li><strong>Multidisciplinary teams:</strong> Mental health professionals, peer specialists, and case managers</li>
+                <li><strong>Harm reduction approach:</strong> Focus on reducing immediate harm rather than requiring abstinence</li>
+                <li><strong>Cultural competency:</strong> Teams trained in working with diverse populations</li>
+                <li><strong>Family involvement:</strong> Services that include family members and support systems</li>
+            </ul>
+
+            <h3>Specialized Mobile Teams</h3>
+            <ul>
+                <li><strong>Youth Mobile Crisis Team:</strong> Specialized team for children and adolescents</li>
+                <li><strong>LGBTQ+ Crisis Team:</strong> Culturally competent services for LGBTQ+ youth</li>
+                <li><strong>Homeless Outreach Team:</strong> Crisis services for homeless and unstably housed youth</li>
+                <li><strong>Co-Response Teams:</strong> Mental health professionals working with police</li>
+            </ul>
+
+            <h2>Hospital-Based Crisis Services</h2>
+
+            <h3>UCSF Benioff Children's Hospital</h3>
+            <p>UCSF provides specialized pediatric emergency mental health services:</p>
+            <ul>
+                <li><strong>Pediatric Emergency Department:</strong> Specialized youth crisis assessment</li>
+                <li><strong>Child and Adolescent Psychiatry:</strong> Inpatient and outpatient crisis services</li>
+                <li><strong>Crisis consultation services:</strong> Expert consultation for complex cases</li>
+                <li><strong>Research and innovation:</strong> Cutting-edge approaches to youth crisis intervention</li>
+            </ul>
+
+            <h3>California Pacific Medical Center</h3>
+            <p>CPMC provides additional emergency psychiatric services:</p>
+            <ul>
+                <li><strong>Emergency psychiatric evaluation:</strong> 24/7 crisis assessment</li>
+                <li><strong>Crisis stabilization:</strong> Short-term stabilization services</li>
+                <li><strong>Discharge planning:</strong> Coordination of ongoing care</li>
+            </ul>
+
+            <h2>Community-Based Crisis Services</h2>
+
+            <p>San Francisco's extensive network of community-based organizations provides specialized crisis services:</p>
+
+            <h3>Youth-Specific Organizations</h3>
+            <ul>
+                <li><strong>Larkin Street Youth Services:</strong> Crisis services for homeless and at-risk youth</li>
+                <li><strong>Huckleberry Youth Programs:</strong> Crisis counseling and residential services</li>
+                <li><strong>At the Crossroads:</strong> Crisis intervention for LGBTQ+ youth</li>
+                <li><strong>Coleman Advocates:</strong> Youth advocacy and crisis support</li>
+            </ul>
+
+            <h3>Cultural and Community-Specific Services</h3>
+            <ul>
+                <li><strong>Asian Community Mental Health Services:</strong> Culturally competent crisis services</li>
+                <li><strong>Instituto Familiar de la Raza:</strong> Crisis services for Latino families</li>
+                <li><strong>African American Community Health Equity Council:</strong> Crisis services for African American youth</li>
+                <li><strong>Native American Health Center:</strong> Culturally appropriate crisis intervention</li>
+            </ul>
+
+            <div class="info-box">
+                <h3>San Francisco Crisis Service Innovation</h3>
+                <p>San Francisco leads in innovative crisis service approaches:</p>
+                <ul>
+                    <li><strong>Peer Support Integration:</strong> Extensive use of peer specialists in crisis response</li>
+                    <li><strong>Harm Reduction Principles:</strong> Focus on reducing immediate harm rather than requiring treatment compliance</li>
+                    <li><strong>Technology Integration:</strong> Use of apps and digital platforms for crisis support</li>
+                    <li><strong>Community Partnerships:</strong> Strong collaboration between public and community-based services</li>
+                    <li><strong>Equity Focus:</strong> Emphasis on addressing disparities in crisis service access and outcomes</li>
+                </ul>
+            </div>
+
+            <h2>School-Based Crisis Services</h2>
+
+            <p>San Francisco Unified School District (SFUSD) has developed comprehensive school-based mental health services:</p>
+
+            <h3>Student Support Services</h3>
+            <ul>
+                <li><strong>School-Based Health Centers:</strong> On-site mental health services</li>
+                <li><strong>Crisis Response Teams:</strong> Specialized teams for school mental health emergencies</li>
+                <li><strong>Threat Assessment Programs:</strong> Systematic evaluation of potential risks</li>
+                <li><strong>Restorative Justice Programs:</strong> Alternative approaches to discipline</li>
+                <li><strong>Wellness Centers:</strong> Safe spaces for students in crisis</li>
+            </ul>
+
+            <h3>Family and Community Engagement</h3>
+            <ul>
+                <li><strong>Family Resource Centers:</strong> Support services for families</li>
+                <li><strong>Community Schools Model:</strong> Integration of community services in schools</li>
+                <li><strong>Multilingual Services:</strong> Crisis support in multiple languages</li>
+                <li><strong>Cultural Liaisons:</strong> Staff who understand specific cultural communities</li>
+            </ul>
+
+            <h2>Specialized Youth Crisis Programs</h2>
+
+            <p>San Francisco has developed numerous specialized programs for youth in crisis:</p>
+
+            <h3>Crisis Residential Services</h3>
+            <ul>
+                <li><strong>Crisis Stabilization Units:</strong> Short-term residential crisis treatment</li>
+                <li><strong>Therapeutic Group Homes:</strong> Longer-term residential crisis support</li>
+                <li><strong>Respite Care:</strong> Short-term out-of-home placement during family crises</li>
+                <li><strong>Transitional Housing:</strong> Housing for youth aging out of care</li>
+            </ul>
+
+            <h3>Specialized Population Services</h3>
+            <ul>
+                <li><strong>LGBTQ+ Youth Services:</strong> Specialized crisis support for sexual and gender minorities</li>
+                <li><strong>Homeless Youth Services:</strong> Crisis intervention for unstably housed youth</li>
+                <li><strong>Immigrant Youth Services:</strong> Crisis support for immigrant and refugee youth</li>
+                <li><strong>Justice-Involved Youth:</strong> Crisis services for youth in the juvenile justice system</li>
+            </ul>
+
+            <h2>Cultural Competency and Equity</h2>
+
+            <p>San Francisco's diverse population requires crisis services that are culturally responsive and equitable:</p>
+
+            <h3>Language Services</h3>
+            <ul>
+                <li><strong>Spanish-language services:</strong> Comprehensive crisis support in Spanish</li>
+                <li><strong>Chinese-language services:</strong> Crisis support in Mandarin and Cantonese</li>
+                <li><strong>Other language services:</strong> Crisis support in Tagalog, Russian, Arabic, and others</li>
+                <li><strong>Professional interpreters:</strong> Certified interpretation for crisis situations</li>
+            </ul>
+
+            <h3>Culturally Specific Approaches</h3>
+            <ul>
+                <li><strong>Community-based organizations:</strong> Crisis services provided by culturally specific organizations</li>
+                <li><strong>Traditional healing practices:</strong> Integration of cultural healing approaches</li>
+                <li><strong>Community leaders:</strong> Involvement of cultural and religious leaders</li>
+                <li><strong>Culturally adapted interventions:</strong> Crisis interventions modified for specific communities</li>
+            </ul>
+
+            <h2>Innovation and Technology</h2>
+
+            <p>San Francisco continues to lead in innovative approaches to crisis intervention:</p>
+
+            <h3>Technology-Enhanced Services</h3>
+            <ul>
+                <li><strong>Crisis apps:</strong> Mobile applications for crisis support and resource location</li>
+                <li><strong>Telehealth crisis services:</strong> Remote crisis assessment and intervention</li>
+                <li><strong>AI-powered screening:</strong> Technology to identify at-risk individuals</li>
+                <li><strong>Social media monitoring:</strong> Early identification of crisis situations</li>
+            </ul>
+
+            <h3>Research and Evaluation</h3>
+            <ul>
+                <li><strong>UCSF partnerships:</strong> Research collaboration with academic institutions</li>
+                <li><strong>Outcome measurement:</strong> Rigorous evaluation of crisis service effectiveness</li>
+                <li><strong>Best practice development:</strong> Development of evidence-based practices</li>
+                <li><strong>Innovation pilots:</strong> Testing of new crisis intervention approaches</li>
+            </ul>
+
+            <h2>Prevention and Early Intervention</h2>
+
+            <p>San Francisco emphasizes prevention and early intervention to reduce the need for crisis services:</p>
+
+            <h3>Prevention Programs</h3>
+            <ul>
+                <li><strong>Mental Health First Aid:</strong> Community training in mental health awareness</li>
+                <li><strong>Suicide prevention programs:</strong> Evidence-based prevention initiatives</li>
+                <li><strong>Youth development programs:</strong> Positive youth development approaches</li>
+                <li><strong>Family strengthening programs:</strong> Building family resilience and coping skills</li>
+                <li><strong>Community coalitions:</strong> Collaborative prevention efforts</li>
+            </ul>
+
+            <h3>Early Intervention Services</h3>
+            <ul>
+                <li><strong>School-based screening:</strong> Early identification of mental health concerns</li>
+                <li><strong>Primary care integration:</strong> Mental health services in medical settings</li>
+                <li><strong>Community outreach:</strong> Proactive engagement with at-risk populations</li>
+                <li><strong>Peer support programs:</strong> Youth supporting other youth</li>
+            </ul>
+
+            <h2>Accessing Crisis Services in San Francisco</h2>
+
+            <p>San Francisco provides multiple pathways for accessing crisis services:</p>
+
+            <h3>Immediate Access</h3>
+            <ul>
+                <li><strong>911 Emergency Services:</strong> For life-threatening emergencies</li>
+                <li><strong>988 Suicide Prevention Lifeline:</strong> National crisis support</li>
+                <li><strong>SF Crisis Line:</strong> (415) 781-0500 for local crisis support</li>
+                <li><strong>Crisis Text Line:</strong> Text HOME to 741741</li>
+                <li><strong>Walk-in Crisis Services:</strong> Immediate crisis assessment at SF General</li>
+            </ul>
+
+            <h3>Community Access Points</h3>
+            <ul>
+                <li><strong>Community health centers:</strong> Integrated crisis and primary care</li>
+                <li><strong>School-based services:</strong> Crisis support in educational settings</li>
+                <li><strong>Community-based organizations:</strong> Culturally specific crisis services</li>
+                <li><strong>Peer support centers:</strong> Crisis support from individuals with lived experience</li>
+            </ul>
+
+            <h2>Funding and Sustainability</h2>
+
+            <p>San Francisco's crisis services are funded through diverse sources:</p>
+
+            <h3>Funding Sources</h3>
+            <ul>
+                <li><strong>City and County funding:</strong> Local taxpayer support for crisis services</li>
+                <li><strong>State funding:</strong> California Mental Health Services Act funding</li>
+                <li><strong>Federal grants:</strong> SAMHSA and other federal funding sources</li>
+                <li><strong>Private foundations:</strong> Philanthropic support for innovation</li>
+                <li><strong>Healthcare partnerships:</strong> Collaboration with health systems</li>
+            </ul>
+
+            <h3>Sustainability Initiatives</h3>
+            <ul>
+                <li><strong>Outcome measurement:</strong> Demonstrating effectiveness to maintain funding</li>
+                <li><strong>Cost-effectiveness analysis:</strong> Showing value of crisis services</li>
+                <li><strong>Policy advocacy:</strong> Advocating for sustained funding</li>
+                <li><strong>Community engagement:</strong> Building public support for crisis services</li>
+            </ul>
+
+            <h2>Challenges and Future Directions</h2>
+
+            <p>Despite San Francisco's comprehensive crisis system, challenges remain:</p>
+
+            <h3>Current Challenges</h3>
+            <ul>
+                <li><strong>Housing crisis:</strong> Impact of homelessness on youth mental health</li>
+                <li><strong>Cost of living:</strong> Economic stress affecting families</li>
+                <li><strong>Workforce shortages:</strong> Difficulty recruiting and retaining staff</li>
+                <li><strong>System coordination:</strong> Improving coordination between services</li>
+                <li><strong>Equity gaps:</strong> Ensuring equitable access across all communities</li>
+            </ul>
+
+            <h3>Future Opportunities</h3>
+            <ul>
+                <li><strong>Technology integration:</strong> Enhanced use of digital platforms</li>
+                <li><strong>Peer support expansion:</strong> Greater involvement of individuals with lived experience</li>
+                <li><strong>Prevention focus:</strong> Increased emphasis on upstream interventions</li>
+                <li><strong>Regional coordination:</strong> Better coordination across the Bay Area</li>
+                <li><strong>Innovation scaling:</strong> Spreading successful innovations to other communities</li>
+            </ul>
+
+            <h2>Resources for Families</h2>
+
+            <p>San Francisco provides extensive resources to help families navigate crisis situations:</p>
+
+            <h3>Information and Support</h3>
+            <ul>
+                <li><strong>SF.gov mental health resources:</strong> Comprehensive online information</li>
+                <li><strong>211 Bay Area:</strong> Information and referral services</li>
+                <li><strong>Family support groups:</strong> Peer support for families in crisis</li>
+                <li><strong>Educational workshops:</strong> Training on crisis prevention and response</li>
+                <li><strong>Advocacy organizations:</strong> Groups that support families navigating the system</li>
+            </ul>
+
+            <h2>Conclusion</h2>
+
+            <p>San Francisco has developed one of the most innovative and comprehensive youth crisis intervention systems in the United States, reflecting the city's values of social justice, innovation, and community-based care. Through progressive policies, diverse funding sources, and strong community partnerships, San Francisco provides a model for other cities seeking to develop effective urban crisis response systems.</p>
+
+            <p>The city's emphasis on cultural competency, harm reduction, and equity creates opportunities for positive outcomes even during the most challenging times. While challenges remain, particularly related to housing and economic pressures, San Francisco continues to lead in developing innovative approaches to youth crisis intervention.</p>
+
+            <p>For families living in San Francisco, understanding the available crisis resources can provide reassurance that comprehensive, culturally competent help is accessible when needed. The city's commitment to innovation and community-based care creates multiple pathways for support and recovery.</p>
+
+            <p>If you're facing a youth mental health crisis in San Francisco, don't hesitate to call (415) 781-0500, text HOME to 741741, or call 988 for immediate support. Help is available 24/7, and San Francisco's crisis services are designed to provide culturally competent, innovative intervention while connecting families to ongoing resources for healing and recovery.</p>
+
+            <a href="index.html" class="back-link">← Back to Crisis Support Network</a>
+        </article>
+    </div>
+</body>
+</html>
