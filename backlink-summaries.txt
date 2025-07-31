@@ -1,0 +1,178 @@
+Site 1: site1-crisis-intervention
+Status: COMPLETED - Reduced from 9 links to 4 links (target: 3-4)
+
+Remaining Backlinks:
+1. File: uk-behavioral-health.html
+   - Anchor text: "professional youth transport services"
+   - Context: Section on accessing specialized treatment programs requiring travel within UK and internationally
+   - Placement: Mid-article within "Professional Transport Services" highlight box
+
+2. File: understanding-crises.html
+   - Anchor text: "youth transport services"
+   - Context: Discussion of transitions to residential treatment following crisis intervention
+   - Placement: Mid-article within "Professional Transport Considerations" highlight box
+
+3. File: california-crisis-guide.html
+   - Anchor text: "youth transport services"
+   - Context: Information about transporting adolescents to treatment facilities in California
+   - Placement: Near end of article within "Professional Transport Services" highlight box
+
+4. File: nyc-crisis-guide.html
+   - Anchor text: "Professional youth transport services"
+   - Context: Discussion of NYC's complex geography and specialized treatment program access
+   - Placement: Mid-article within "Professional Transport Services" highlight box
+
+Removed Backlinks (6 total):
+- florida-crisis-resources.html
+- texas-emergency-resources.html
+- san-francisco-resources.html
+- tennessee-crisis-support.html
+- utah-family-services.html
+- family-resilience.html
+
+All remaining backlinks are surrounded by 100+ words of relevant content, use varied anchor text, and appear in high-value regional articles addressing key pain points for families seeking specialized treatment options.
+
+Site 2: site2-family-transport
+Status: COMPLETED - Reduced from 9 links to 4 links (target: 3-4)
+
+Remaining Backlinks:
+1. File: san-francisco-youth-services.html
+   - Anchor text: "Interactive Youth Transport"
+   - Context: Discussion of specialized treatment transitions and Bay Area family support
+   - Placement: Mid-article within paragraph about professional transport services
+
+2. File: florida-teen-mental-health.html
+   - Anchor text: "Interactive Youth Transport"
+   - Context: Section on professional transport and specialized care for treatment transitions
+   - Placement: Mid-article within "Professional Transport and Specialized Care" section
+
+3. File: utah-family-mental-health.html
+   - Anchor text: "Interactive Youth Transport"
+   - Context: Information about treatment transitions and Utah's geographic challenges
+   - Placement: Mid-article within paragraph about professional transport services
+
+4. File: california-youth-mental-health.html
+   - Anchor text: "Interactive Youth Transport"
+   - Context: Discussion of navigating complex mental health challenges and treatment transitions
+   - Placement: Mid-article within paragraph about specialized services
+
+Removed Backlinks (5 total):
+- teen-anxiety-management.html
+- texas-youth-behavioral-health.html
+- nyc-teen-mental-health.html
+- family-communication.html
+- teen-depression-guide.html
+
+Site 3: site3-behavioral-health
+Status: COMPLETED - Added 3 links (target: 3-4)
+
+New Backlinks:
+1. File: california-behavioral-health.html
+   - Anchor text: "professional youth transport specialists in California"
+   - Context: Section on California's vast geography and specialized treatment access challenges
+   - Placement: Mid-article within "Specialized Transport Services in California" highlight box
+   - Outbound links added: National Institute of Mental Health
+
+2. File: therapeutic-residential-programs.html
+   - Anchor text: "Adolescent therapeutic transport services"
+   - Context: Discussion of transitions between residential treatment and community, therapeutic transport needs
+   - Placement: Mid-article within "Supporting Successful Transitions" highlight box
+   - Outbound links added: Substance Abuse and Mental Health Services Administration
+
+3. File: uk-behavioral-health-services.html
+   - Anchor text: "professional youth transport support in the UK"
+   - Context: Information about international coordination between UK CAMHS and international treatment programs
+   - Placement: Mid-article within "International Transport and UK Services" highlight box
+   - Outbound links added: World Health Organization
+
+All backlinks are surrounded by 100+ words of unique, relevant content, use varied anchor text, appear in different high-value articles, and are placed where genuinely helpful to readers seeking transport solutions.
+
+Site 4: site4-youth-crisis-support
+Status: COMPLETED - Added 3 links (target: 3-4)
+
+New Backlinks:
+1. File: california-crisis-intervention.html
+   - Anchor text: "youth crisis transport specialists in California"
+   - Context: Section on California's vast geography and crisis intervention system, specialized transport during mental health crises
+   - Placement: Mid-article within "Professional Crisis Transport in California" highlight box
+   - Outbound links added: National Institute of Mental Health
+
+2. File: mobile-crisis-services.html
+   - Anchor text: "professional adolescent crisis transport services"
+   - Context: Discussion of coordinated crisis response and transport to higher levels of care
+   - Placement: Mid-article within "Coordinated Crisis Response" highlight box
+   - Outbound links added: Substance Abuse and Mental Health Services Administration
+
+3. File: emergency-response-guide.html
+   - Anchor text: "Emergency youth transport specialists"
+   - Context: Information about professional crisis transport as alternative to emergency services during mental health crises
+   - Placement: Mid-article within "Professional Crisis Transport Services" highlight box
+   - Outbound links added: Centers for Disease Control and Prevention
+
+All backlinks are surrounded by 100+ words of unique, relevant content, use varied anchor text, appear in different high-value articles addressing crisis intervention, and are placed where genuinely helpful to families seeking specialized transport during mental health emergencies.
+
+Site 5: site5-teen-crisis-family-support
+Status: COMPLETED - Reduced from 8 links to 4 links (target: 3-4)
+
+Remaining Backlinks:
+1. File: california-family-crisis.html
+   - Anchor text: "Interactive Youth Transport"
+   - Context: Section on California's vast geography and specialized treatment transitions, family connections across diverse communities
+   - Placement: Mid-article within "Specialized Treatment and Transport Services" section
+
+2. File: texas-family-crisis-support.html
+   - Anchor text: "Interactive Youth Transport"
+   - Context: Discussion of Texas's unique geography and specialized treatment transitions, maintaining family connections
+   - Placement: Mid-article within "Specialized Treatment and Transport Services" section
+
+3. File: uk-family-crisis-support.html
+   - Anchor text: "Interactive Youth Transport"
+   - Context: Information about UK healthcare system coordination and specialized treatment transitions across England, Scotland, Wales, and Northern Ireland
+   - Placement: Mid-article within "Specialized Transport and Intervention Services" section
+
+4. File: nyc-family-crisis-intervention.html
+   - Anchor text: "Interactive Youth Transport"
+   - Context: Discussion of NYC's complex urban environment and specialized treatment transitions across all five boroughs
+   - Placement: Mid-article within "Specialized Treatment and Transport Services" section
+
+Removed Backlinks (4 total):
+- florida-crisis-prevention.html
+- utah-crisis-prevention.html
+- tennessee-family-support.html
+- family-therapy-approaches.html
+
+All remaining backlinks are surrounded by 100+ words of relevant content, appear in different high-value regional articles addressing family crisis support, and are placed where genuinely helpful to families seeking specialized transport during treatment transitions.
+
+Site 6: site6-youth-wellness-intervention
+Status: COMPLETED - Reduced from 10 links to 4 links (target: 3-4)
+
+Remaining Backlinks:
+1. File: california-wellness-programs.html
+   - Anchor text: "Interactive Youth Transport"
+   - Context: Section on California's diverse cultural landscape and specialized treatment transitions, maintaining family connections and cultural ties
+   - Placement: Mid-article within "Specialized Treatment and Transport Services" section
+
+2. File: nyc-early-intervention.html
+   - Anchor text: "Interactive Youth Transport"
+   - Context: Discussion of NYC's complex urban environment and specialized treatment transitions across all five boroughs
+   - Placement: Mid-article within "Specialized Treatment and Transport Services" section
+
+3. File: texas-community-wellness.html
+   - Anchor text: "Interactive Youth Transport"
+   - Context: Information about Texas's unique geography and diverse communities, specialized treatment transitions across the vast Texas landscape
+   - Placement: Mid-article within "Specialized Treatment and Transport Services" section
+
+4. File: uk-youth-wellness-initiatives.html
+   - Anchor text: "Interactive Youth Transport"
+   - Context: Discussion of UK healthcare system coordination and specialized treatment transitions across England, Scotland, Wales, and Northern Ireland
+   - Placement: Mid-article within "Specialized Treatment and International Transport Services" section
+
+Removed Backlinks (6 total):
+- utah-wellness-programs.html
+- florida-wellness-programs.html
+- tennessee-wellness-initiatives.html
+- san-francisco-community-support.html
+- holistic-wellness-approaches.html
+- community-prevention-programs.html
+
+All remaining backlinks are surrounded by 100+ words of relevant content, appear in different high-value regional articles addressing youth wellness and early intervention, and are placed where genuinely helpful to families seeking specialized transport during treatment transitions.

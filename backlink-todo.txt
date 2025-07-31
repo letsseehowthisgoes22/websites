@@ -1,0 +1,23 @@
+Backlink Adjustment Todo List:
+
+Current Status:
+- [x] site1-crisis-intervention (completed: 4 links, target: 3-4) - DONE
+- [x] site2-family-transport (completed: 4 links, target: 3-4) - DONE  
+- [x] site3-behavioral-health (completed: 3 links, target: 3-4) - DONE
+- [x] site4-youth-crisis-support (completed: 3 links, target: 3-4) - DONE
+- [x] site5-teen-crisis-family-support (completed: 4 links, target: 3-4) - DONE
+- [x] site6-youth-wellness-intervention (completed: 4 links, target: 3-4) - DONE
+
+Requirements per user:
+- 3-4 backlinks to interactiveyouthtransport.com per site
+- Each link surrounded by 100+ words of unique, relevant content
+- Varied, natural anchor text reflecting article topic
+- Links in different, high-value articles (not clustered)
+- Early to mid-article placement
+- Add credible outbound links for natural patterns
+- Summarize placements, anchor text, and context when done
+
+Progress:
+- Created branch: devin/1753936731-adjust-backlinks
+- Todo list created
+- Ready to start with first site
