@@ -1,0 +1,11 @@
+[build]
+  builder = "NIXPACKS"
+
+[deploy]
+  startCommand = "python -m http.server 8080"
+  restartPolicyType = "ON_FAILURE"
+
+[[services]]
+  [services.web]
+    name = "youth-crisis-support"
+    plan = "starter"
