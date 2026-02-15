@@ -1,0 +1,189 @@
+:root {
+  --charcoal: #2d2d2d;
+  --dark-gray: #3a3a3a;
+  --medium-gray: #6b6b6b;
+  --light-gray: #9a9a9a;
+  --off-white: #f5f4f1;
+  --warm-cream: #ebe8e1;
+  --burgundy: #7a3b3b;
+  --muted-red: #8c4a4a;
+  --rule-color: #ccc5ba;
+  --text: #2d2d2d;
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { font-size: 16px; scroll-behavior: smooth; }
+
+body {
+  font-family: 'Palatino Linotype', Palatino, Georgia, serif;
+  color: var(--text);
+  background-color: var(--off-white);
+  line-height: 1.78;
+  -webkit-font-smoothing: antialiased;
+}
+
+a { color: var(--burgundy); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+.site-header {
+  background-color: var(--charcoal);
+  color: var(--off-white);
+  border-bottom: 2px solid var(--burgundy);
+}
+
+.header-inner {
+  max-width: 920px;
+  margin: 0 auto;
+  padding: 1.3rem 2rem 0.4rem;
+}
+
+.masthead-title {
+  font-size: 1.2rem;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+}
+
+.masthead-title a { color: var(--off-white); }
+.masthead-title a:hover { text-decoration: none; }
+
+.masthead-sub {
+  font-size: 0.68rem;
+  color: var(--light-gray);
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  margin-top: 0.1rem;
+}
+
+nav { margin-top: 0.5rem; padding: 0.5rem 0; }
+nav ul { list-style: none; display: flex; gap: 1.4rem; }
+nav a {
+  color: var(--light-gray);
+  font-size: 0.7rem;
+  letter-spacing: 0.04em;
+  font-family: Arial, Helvetica, sans-serif;
+}
+nav a:hover { color: var(--off-white); text-decoration: none; }
+
+main {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 2.5rem 2rem;
+}
+
+main.wide { max-width: 920px; }
+
+h1 {
+  font-size: 1.7rem;
+  font-weight: 700;
+  line-height: 1.25;
+  color: var(--charcoal);
+  margin-bottom: 0.3rem;
+}
+
+.lead {
+  font-size: 1.02rem;
+  color: var(--medium-gray);
+  font-style: italic;
+  margin-bottom: 1.5rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--rule-color);
+  line-height: 1.6;
+}
+
+h2 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--charcoal);
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+h3 {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--dark-gray);
+  margin-top: 1.4rem;
+  margin-bottom: 0.3rem;
+}
+
+p { margin-bottom: 1rem; }
+
+.feature-list {
+  list-style: none;
+  margin: 1.5rem 0;
+}
+
+.feature-list li {
+  padding: 1rem 0;
+  border-bottom: 1px solid var(--rule-color);
+}
+
+.feature-list li:first-child { border-top: 1px solid var(--rule-color); }
+
+.feature-list .tag {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.56rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--burgundy);
+  font-weight: 700;
+}
+
+.feature-list h3 { margin-top: 0.1rem; }
+.feature-list h3 a { color: var(--charcoal); }
+.feature-list h3 a:hover { color: var(--burgundy); }
+
+.feature-list .desc {
+  font-size: 0.86rem;
+  color: var(--medium-gray);
+  margin: 0.15rem 0 0;
+  line-height: 1.5;
+}
+
+.case-note {
+  background: var(--warm-cream);
+  border-left: 3px solid var(--burgundy);
+  padding: 1.1rem 1.3rem;
+  margin: 1.5rem 0;
+  font-size: 0.9rem;
+}
+
+.case-note strong { color: var(--charcoal); }
+
+.site-footer {
+  background: var(--charcoal);
+  color: var(--light-gray);
+  padding: 1.2rem 0;
+  margin-top: 3rem;
+  font-size: 0.68rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer-inner {
+  max-width: 920px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-inner a { color: var(--light-gray); }
+.footer-links ul { list-style: none; display: flex; gap: 1.2rem; }
+
+.footer-disclaimer {
+  max-width: 920px;
+  margin: 0.5rem auto 0;
+  padding: 0.5rem 2rem 0;
+  border-top: 1px solid rgba(255,255,255,0.06);
+  font-size: 0.56rem;
+  color: rgba(154,154,154,0.5);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@media (max-width: 768px) {
+  nav ul { flex-wrap: wrap; gap: 0.5rem; }
+  main { padding: 1.5rem 1.2rem; }
+  h1 { font-size: 1.4rem; }
+  .footer-inner { flex-direction: column; gap: 0.5rem; }
+}

@@ -1,0 +1,198 @@
+:root {
+  --espresso: #3c2a1e;
+  --dark-brown: #4a3728;
+  --warm-brown: #6b5344;
+  --sand: #a8967e;
+  --light-sand: #c4b8a8;
+  --parchment: #f7f3ed;
+  --cream: #faf8f4;
+  --copper: #8b5e3c;
+  --text: #3c2a1e;
+  --text-secondary: #6b5344;
+  --rule: #d8cfbf;
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { font-size: 16px; scroll-behavior: smooth; }
+
+body {
+  font-family: 'Book Antiqua', 'Palatino Linotype', Palatino, Georgia, serif;
+  color: var(--text);
+  background-color: var(--cream);
+  line-height: 1.8;
+  -webkit-font-smoothing: antialiased;
+}
+
+a { color: var(--warm-brown); text-decoration: none; }
+a:hover { color: var(--copper); }
+
+.site-header {
+  background: var(--espresso);
+  color: var(--parchment);
+}
+
+.header-inner {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 1.6rem 2rem 0.5rem;
+}
+
+.masthead {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.masthead-title {
+  font-size: 1.3rem;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  font-style: italic;
+}
+
+.masthead-title a { color: var(--parchment); }
+
+.masthead-vol {
+  font-size: 0.6rem;
+  color: var(--sand);
+  font-family: 'Trebuchet MS', Arial, sans-serif;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+nav { margin-top: 0.6rem; padding: 0.5rem 0; border-top: 1px solid rgba(168,150,126,0.25); }
+nav ul { list-style: none; display: flex; gap: 1.5rem; }
+nav a {
+  color: var(--light-sand);
+  font-size: 0.65rem;
+  letter-spacing: 0.05em;
+  font-family: 'Trebuchet MS', Arial, sans-serif;
+  text-transform: uppercase;
+}
+nav a:hover { color: var(--parchment); }
+
+main {
+  max-width: 680px;
+  margin: 0 auto;
+  padding: 2.5rem 2rem;
+}
+
+main.wide { max-width: 900px; }
+
+h1 {
+  font-size: 1.65rem;
+  font-weight: 400;
+  font-style: italic;
+  line-height: 1.3;
+  color: var(--espresso);
+  margin-bottom: 0.2rem;
+}
+
+.byline {
+  font-size: 0.72rem;
+  color: var(--sand);
+  font-family: 'Trebuchet MS', Arial, sans-serif;
+  letter-spacing: 0.04em;
+  margin-bottom: 1.5rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--rule);
+}
+
+h2 {
+  font-size: 1.15rem;
+  font-weight: 700;
+  font-style: normal;
+  color: var(--espresso);
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+h3 {
+  font-size: 0.98rem;
+  font-weight: 700;
+  color: var(--dark-brown);
+  margin-top: 1.4rem;
+  margin-bottom: 0.3rem;
+}
+
+p { margin-bottom: 1rem; }
+
+.journal-toc {
+  list-style: none;
+  margin: 1.5rem 0;
+  border-top: 2px solid var(--espresso);
+}
+
+.journal-toc li {
+  padding: 1.2rem 0;
+  border-bottom: 1px solid var(--rule);
+}
+
+.journal-toc .section-label {
+  font-family: 'Trebuchet MS', Arial, sans-serif;
+  font-size: 0.52rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--copper);
+  font-weight: 700;
+}
+
+.journal-toc h3 { margin-top: 0.15rem; font-size: 1.02rem; }
+.journal-toc h3 a { color: var(--espresso); }
+.journal-toc h3 a:hover { color: var(--copper); }
+
+.journal-toc .abstract {
+  font-size: 0.82rem;
+  color: var(--text-secondary);
+  margin: 0.15rem 0 0;
+  line-height: 1.55;
+  font-style: italic;
+}
+
+.field-note {
+  background: var(--parchment);
+  border-left: 3px solid var(--copper);
+  padding: 1rem 1.3rem;
+  margin: 1.5rem 0;
+  font-size: 0.88rem;
+}
+
+.field-note strong { color: var(--espresso); }
+
+.site-footer {
+  background: var(--espresso);
+  color: var(--sand);
+  padding: 1.2rem 0;
+  margin-top: 3rem;
+  font-size: 0.65rem;
+  font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+.footer-inner {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-inner a { color: var(--sand); }
+.footer-links ul { list-style: none; display: flex; gap: 1.2rem; }
+
+.footer-disclaimer {
+  max-width: 900px;
+  margin: 0.5rem auto 0;
+  padding: 0.5rem 2rem 0;
+  border-top: 1px solid rgba(168,150,126,0.15);
+  font-size: 0.52rem;
+  color: rgba(168,150,126,0.4);
+  font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+@media (max-width: 768px) {
+  .masthead { flex-direction: column; gap: 0.2rem; }
+  nav ul { flex-wrap: wrap; gap: 0.6rem; }
+  main { padding: 1.5rem 1.2rem; }
+  h1 { font-size: 1.35rem; }
+  .footer-inner { flex-direction: column; gap: 0.5rem; }
+}
