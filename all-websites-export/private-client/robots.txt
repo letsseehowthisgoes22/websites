@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://privateclient.health/sitemap.xml
+Sitemap: https://privatehealthtrust.com/sitemap.xml
