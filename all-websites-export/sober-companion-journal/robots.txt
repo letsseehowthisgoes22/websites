@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://soberanywhere.com/sitemap.xml
